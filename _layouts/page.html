@@ -59,10 +59,13 @@ layout: default
         {% endif %}
     </div>
 
-{% include disqus.html %}
+{% if page.comments == true %}
+    {% include disqus.html %}
+{% endif %}
 
 </div>
 
-{{site.data.alerts.hr_shaded}}
-
-<!-- {% include footer.html %} -->
+{% if page.comments == true %}
+    {{site.data.alerts.hr_shaded}}
+{% endif %}
+{% include footer.html %}

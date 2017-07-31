@@ -1,5 +1,6 @@
 ---
 title:  "Welcome to Jekyll!"
+published: false
 categories: jekyll update
 permalink: myupdate.html
 tags: [blog]

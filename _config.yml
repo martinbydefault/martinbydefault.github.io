@@ -6,10 +6,10 @@ output: web
 topnav_title: martinbydefault's wikilog
 # this appears on the top navigation bar next to the home button
 
-site_title: martinbydefault's wikilog
+site_title: Martin by Default
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
-company_name: Your company
+#company_name: Your company
 # this appears in the footer
 
 github_editme_path:

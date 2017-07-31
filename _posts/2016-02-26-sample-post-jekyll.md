@@ -1,6 +1,6 @@
 ---
 title:  "Sample post"
-published: true
+published: false
 permalink: samplepost.html
 summary: "This is some summary frontmatter for my sample post."
 tags: [blog, getting_started]
