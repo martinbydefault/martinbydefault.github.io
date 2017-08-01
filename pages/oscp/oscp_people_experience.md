@@ -7,7 +7,7 @@ toc: false
 sidebar: wiki_sidebar
 permalink: oscp_people_experience.html
 ---
-## PWK
+## PWK (**P**entesting **W**ith **K**ali)
 * [My (different) OSCP review + Exam experience](https://raaqim.me/2017/07/26/oscp-review-different/) by **Raaqim Mohammed - raildex1** (July 26, 2017)
 * [OSCP Review](https://www.jimwilbur.com/2017/07/oscp-review/) by **Jim Wilbur - jwilbursec** (July 4, 2017)
 * [OSCP – Review and Tips](https://hackmethod.com/oscp-review-tips/) by **Scott - hellor00t** (June 20, 2017)
@@ -20,5 +20,5 @@ permalink: oscp_people_experience.html
 * [Preparing for OffSec PWK course and OSCP](https://stevendcampbell.blogspot.com/2015/05/preparing-for-offensive-securitys-pwk.html) by **Steve Campbell** (May 7, 2015)
 * [Try Harder! My Penetration Testing with Kali Linux OSCP Review and course/lab experience](https://hakin9.org/try-harder-my-penetration-testing-with-kali-linux-oscp-review-and-courselab-experience-my-oscp-review-by-jason-bernier/) by **Jason Bernier** (February 23, 2015)
 
-## PWB
+## PWB (**P**entesting **W**ith **B**acktrack)
 * [OSCP and Me](http://buffered.io/posts/oscp-and-me/) by **OJ Reeves - TheColonial** (August 16, 2013)
