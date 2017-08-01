@@ -17,3 +17,11 @@ entries:
     - title: People's experience
       url: /oscp_people_experience.html
       output: web, pdf
+
+    - title: Cheatsheets
+      url: /oscp_cheatsheets.html
+      output: web, pdf
+
+    - title: Material
+      url: /oscp_material.html
+      output: web, pdf
