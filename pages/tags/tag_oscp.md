@@ -1,9 +1,9 @@
 ---
-title: "News"
-tagName: news
+title: "OSCP pages"
+tagName: oscp
 search: exclude
-permalink: tag_news.html
-sidebar: mydoc_sidebar
+permalink: tag_oscp.html
+sidebar: wiki_sidebar
 folder: tags
 ---
 {% include taglogic.html %}
