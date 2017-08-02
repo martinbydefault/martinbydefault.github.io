@@ -14,6 +14,19 @@ entries:
       url: /cheatsheet_git.html
       output: web, pdf
 # ---
+# Security
+  - title: Security
+    output: web, pdf
+    folderitems:
+
+    - title: Tools
+      url: /sec_tools.html
+      output: web, pdf
+      
+    - title: Blogs
+      url: /sec_blogs.html
+      output: web, pdf
+# ---
 # OSCP
   - title: OSCP
     output: web, pdf
