@@ -5,6 +5,16 @@ entries:
   product: Wiki
   folders:
 
+# Cheatsheets
+  - title: Cheatsheets
+    output: web, pdf
+    folderitems:
+
+    - title: GIT
+      url: /cheatsheet_git.html
+      output: web, pdf
+# ---
+# OSCP
   - title: OSCP
     output: web, pdf
     folderitems:
@@ -25,3 +35,4 @@ entries:
     - title: Material
       url: /oscp_material.html
       output: web, pdf
+# ---
