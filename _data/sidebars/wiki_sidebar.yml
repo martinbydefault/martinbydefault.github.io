@@ -35,4 +35,9 @@ entries:
     - title: Material
       url: /oscp_material.html
       output: web, pdf
+
+    - title: Similar VMs
+      url: /oscp_similar_vms.html
+      output: web, pdf
+
 # ---
