@@ -6,18 +6,16 @@ last_updated: July 31, 2017
 sidebar: wiki_sidebar
 permalink: oscp_general_info.html
 ---
-![oscp logo](https://i.imgur.com/JlxlVx7.png)
-
+{% include image.html file="http://i.imgur.com/hrhuTbY.png" max-width="400" %}
 {% include callout.html content="
 **Offensive Security Certified Professional** (OSCP) is:  
-- an ethical hacking certification.  
-- a hands-on penetration testing certification.  
-- is considered more technical than other ethical hacking certifications.  
-- is one of the few certifications that requires evidence of practical penetration testing skills.  
+<sup>[*from [Wikipedia](https://en.wikipedia.org/wiki/Offensive_Security_Certified_Professional)*]</sup>
 
-*(from [Wikipedia](https://en.wikipedia.org/wiki/Offensive_Security_Certified_Professional))*
+* an ethical hacking certification.
+* a hands-on penetration testing certification.
+* is considered more technical than other ethical hacking certifications.
+* is one of the few certifications that requires evidence of practical penetration testing skills.
 " type="success" %}
-
 You can learn more about OSCP in the official page: [Offensive Security Certified Professional (OSCP) Certification](https://www.offensive-security.com/information-security-certifications/oscp-offensive-security-certified-professional/).  
 
 In the **OSCP's submenus on the sidebar of this wiki** you will find useful resources related to the OSCP Certification such as: Experiences from other people, Tips, Tools, Suggestions, etc.
