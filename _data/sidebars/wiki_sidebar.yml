@@ -10,6 +10,10 @@ entries:
     output: web, pdf
     folderitems:
 
+    - title: Bash
+      url: /cheatsheet_bash.html
+      output: web, pdf
+
     - title: GIT
       url: /cheatsheet_git.html
       output: web, pdf
@@ -22,7 +26,7 @@ entries:
     - title: Tools
       url: /sec_tools.html
       output: web, pdf
-      
+
     - title: Blogs
       url: /sec_blogs.html
       output: web, pdf

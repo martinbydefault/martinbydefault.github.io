@@ -6,3 +6,5 @@ allowed-tags:
   - sec
   - blog
   - tool
+  - ssh
+  - bash
