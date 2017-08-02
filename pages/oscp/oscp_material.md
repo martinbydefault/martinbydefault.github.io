@@ -1,5 +1,5 @@
 ---
-title: OSCP - Material
+title: OSCP / Material
 tags: [oscp]
 keywords: oscp, material
 last_updated: Aug 1, 2017

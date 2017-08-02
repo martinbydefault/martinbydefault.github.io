@@ -1,5 +1,5 @@
 ---
-title: OSCP - General Info
+title: OSCP / General Info
 tags: [oscp]
 keywords: oscp, general, info
 last_updated: July 31, 2017

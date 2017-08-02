@@ -1,5 +1,5 @@
 ---
-title: OSCP - Cheatsheets
+title: OSCP / Cheatsheets
 tags: [oscp, cheatsheet]
 keywords: oscp, cheatsheet
 last_updated: Aug 1, 2017

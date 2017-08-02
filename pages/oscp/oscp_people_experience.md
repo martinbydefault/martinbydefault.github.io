@@ -1,5 +1,5 @@
 ---
-title: OSCP - People's experience
+title: OSCP / People's experience
 tags: [oscp, experience]
 keywords: oscp, people, experience
 last_updated: August 1, 2017
