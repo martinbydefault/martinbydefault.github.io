@@ -19,4 +19,18 @@ git commit --amend # changes the last commit's message and includes staged files
 ```
 " %}
 <!-- end -->
+<!--  panel -->
+{% include panel.html
+title="Change remote URL"
+content="
+```bash
+# view existing remote URL
+git remote -v
+# change existing remote URL
+git remote set-url origin https://github.com/USERNAME/REPOSITORY.git
+
+```
+<sub>*Reference: [Github](https://help.github.com/articles/changing-a-remote-s-url/)*</sub>
+" %}
+<!-- end -->
 </div>
