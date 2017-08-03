@@ -10,7 +10,8 @@ permalink: oscp_material.html
 
 | Site | Description |
 |------|-------------|
-[Pentesting con Kali](http://www.sniferl4bs.com/p/blog-page_7.html) <i class="fa fa-globe"></i> | *"En el Taller abordaremos todo lo relacionado a un Pentesting: La distribución Kali Linux, conoceremos el  funcionamiento de las herramientas, bajo entornos reales daremos objetivos a ser escaneados y obtención de información."*
+[Pentesting con Kali](http://www.sniferl4bs.com/p/blog-page_7.html) <i class="fa fa-globe"></i> | En el Taller abordaremos todo lo relacionado a un Pentesting: La distribución Kali Linux, conoceremos el  funcionamiento de las herramientas, bajo entornos reales daremos objetivos a ser escaneados y obtención de información.
+[Metasploit Unleashed](https://www.offensive-security.com/metasploit-unleashed/) <br><sub>by **Offensive Security**</sub> | The most complete and in-depth Metasploit guide available, with contributions from the authors of the No Starch Press Metasploit Book. We will teach you how to use Metasploit, in a structured and intuitive manner. Additionally, this free online ethical hacking course makes a wonderful quick reference for penetration testers, red teams, and other security professionals.
 
 ## Privilege Escalation
 
