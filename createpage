@@ -1,0 +1,50 @@
+#!/bin/sh
+
+# Using a 'cat' here document, create a file for jekyll
+# website containing what's required for pages.
+
+# You call the script without parameters
+#   ./createpage
+
+DIR="pages/"
+
+echo "Section? "
+read section
+DIR+=$section
+echo "Name? "
+read name
+
+# Uppercase first letter
+Section="$(tr '[:lower:]' '[:upper:]' <<< ${section:0:1})${section:1}"
+Name="$(tr '[:lower:]' '[:upper:]' <<< ${name:0:1})${name:1}"
+
+echo "Do you want a short section name? (y/n) "
+read answer
+case ${answer:0:1} in
+    y|Y )
+        echo "Short section name? "
+        read sec_short
+    ;;
+    * )
+        sec_short=$section
+    ;;
+esac
+
+if [ ! -d "${DIR}" ]; then
+    mkdir $DIR
+fi
+
+touch ${DIR}/${sec_short}_${name}.md
+
+cat <<EOF >"${DIR}/${sec_short}_${name}.md"
+---
+title: ${Section} / ${Name}
+tags: [${sec_short}, ${name}]
+keywords: ${section}, ${name}
+sidebar: wiki_sidebar
+permalink: ${sec_short}_${name}.html
+---
+
+EOF
+
+exit
