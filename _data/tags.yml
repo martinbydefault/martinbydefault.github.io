@@ -15,3 +15,6 @@ allowed-tags:
   - course
   - linux
   - material
+  - ctf
+  - crypto
+  - web

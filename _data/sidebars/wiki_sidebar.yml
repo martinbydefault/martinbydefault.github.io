@@ -44,8 +44,25 @@ entries:
       url: /sec_blogs.html
       output: web, pdf
 
+    - title: Web
+      url: /sec_web.html
+      output: web, pdf
+
     - title: Windows
       url: /sec_windows.html
+      output: web, pdf
+# ---
+# CTF
+  - title: CTF
+    output: web, pdf
+    folderitems:
+
+    - title: Material
+      url: /ctf_material.html
+      output: web, pdf
+
+    - title: Crypto
+      url: /ctf_crypto.html
       output: web, pdf
 # ---
 # OSCP
