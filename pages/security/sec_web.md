@@ -6,6 +6,35 @@ sidebar: wiki_sidebar
 permalink: sec_web.html
 ---
 
-# SQL Injection
+## CSRF - **C**ross **S**ite **R**equest **F**orgery
+
+[**CSRF** Demystified](http://www.gnucitizen.org/blog/csrf-demystified/) | I will try to provide a basic explanation about the attack pattern itself, come up with several real word examples and finally summarize a list of things developers can do to protect their sites against CSRF attacks.
+[All You need To KnowA bout Cross Site Request Forgery (CSRF)](https://www.darknet.org.uk/2017/07/all-you-need-to-know-about-cross-site-request-forgery-csrf/) | A compilation of links by darknet.org.uk
+[Anatomy of a Cross-site Request Forgery Attack](haacked.com/archive/2009/04/02/anatomy-of-csrf-attack.aspx/) | Various code examples about CSRF
+[CSRF Mitigation for AJAX Requests](https://markitzeroday.com/x-requested-with/cors/2017/06/29/csrf-mitigation-for-ajax-requests.html) | Ways to mitagate CSRF AJAX Requests
+
+### Others
+
+**Submit a HTML form without redirection**  
+<sup>Reference: [Stackoverflow - How to submit html form without redirection?](https://stackoverflow.com/questions/25983603/how-to-submit-html-form-without-redirection)</sup>
+
+```html
+<iframe width="0" height="0" border="0" name="dummyframe" id="dummyframe"></iframe>
+
+<form action="submitscript.php" target="dummyframe">
+    <!-- form body here -->
+</form>
+```
+
+## XSS - Cross Site Scripting
+
+[Understanding XSS Auditor](https://www.virtuesecurity.com/blog/understanding-xss-auditor/) |  We see a lot of confusion regarding the X-XSS-Protection header and thought it might be worthwhile to go over exactly what this header is and what it isn’t.
+[X-XSS-Protection header](https://www.owasp.org/index.php/OWASP_Secure_Headers_Project#xxxsp) | Explanation by OWASP.
+
+## SQL Injection
 
 [ MySQL injection tutorial](https://www.hellboundhackers.org/articles/read-article.php?article_id=862) by sam207 | In this tutorial, I will demonstrate the infamous MySQL injection in newbie perspective so that all the newbies become able to become successful SQL injector.
+
+## Special/New Attacks
+
+[Web Cache Deception Attack](https://omergil.blogspot.com/2017/02/web-cache-deception-attack.html) |  Web cache deception is a new web attack vector that puts various technologies and frameworks at risk.

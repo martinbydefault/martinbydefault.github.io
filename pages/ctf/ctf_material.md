@@ -10,6 +10,12 @@ permalink: ctf_material.html
 
 [ctf-tools & HackingTools](https://securityonline.info/ctf-tools-hackingtools-exhaustive-list-of-hacking-tools/) | Exhaustive list of hacking tools. This is a collection of setup scripts to create an install of various security research tools. Of course, this isn’t a hard problem, but it’s really nice to have them in one place that’s easily deployable to new machines and so forth.
 
+
+## Guides/Books
+
+[CTF Field Guide](https://trailofbits.github.io/ctf/) | In these chapters, you’ll find everything you need to win your next CTF competition: Walkthroughs and details on past CTF challenges, Guidance to help you design and create your own toolkits, Case studies of attacker behavior, both in the real world and in past CTF competitions
+
+
 ## Writeups
 
 [Github Collection](https://github.com/ctfs) | A collection of writeups hosted at github and organised by year.
