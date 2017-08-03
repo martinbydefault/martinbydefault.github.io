@@ -6,6 +6,11 @@ sidebar: wiki_sidebar
 permalink: sec_tools.html
 ---
 
+## Scanners
+
+[w3af](http://w3af.org/) | Open Source Web Application Security Scanner
+[Scanning for OWASP Top 10 Vulnerabilities with Metasploit for the web(w3af)](https://gbhackers.com/scanning-owsap-top-10-vulnerabilities-metasploit-webw3af/) | 
+
 ## Web Proxy
 
 [BURP Suite](https://portswigger.net/burp) | An integrated platform for performing security testing of web applications. Its various tools work seamlessly together to support the entire testing process, from initial mapping and analysis of an application's attack surface, through to finding and exploiting security vulnerabilities.

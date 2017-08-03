@@ -35,6 +35,11 @@ permalink: sec_web.html
 
 [ MySQL injection tutorial](https://www.hellboundhackers.org/articles/read-article.php?article_id=862) by sam207 | In this tutorial, I will demonstrate the infamous MySQL injection in newbie perspective so that all the newbies become able to become successful SQL injector.
 
+## OWASP Top 10
+
+
+
+
 ## Special/New Attacks
 
 [Web Cache Deception Attack](https://omergil.blogspot.com/2017/02/web-cache-deception-attack.html) |  Web cache deception is a new web attack vector that puts various technologies and frameworks at risk.
