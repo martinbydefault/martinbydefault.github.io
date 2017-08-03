@@ -6,6 +6,15 @@ entries:
   folders:
 
 # Cheatsheets
+  - title: Linux
+    output: web, pdf
+    folderitems:
+
+    - title: Material
+      url: /linux_material.html
+      output: web, pdf
+# ---
+# Cheatsheets
   - title: Cheatsheets
     output: web, pdf
     folderitems:
