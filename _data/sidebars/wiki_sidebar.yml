@@ -30,6 +30,10 @@ entries:
     - title: Blogs
       url: /sec_blogs.html
       output: web, pdf
+
+    - title: Windows
+      url: /sec_windows.html
+      output: web, pdf
 # ---
 # OSCP
   - title: OSCP
@@ -56,5 +60,15 @@ entries:
     - title: Similar VMs
       url: /oscp_similar_vms.html
       output: web, pdf
-
 # ---
+  - title: General
+    output: web, pdf
+    folderitems:
+
+    - title: Kindle
+      url: /kindle.html
+      output: web, pdf
+
+    - title: Fonts
+      url: /fonts.html
+      output: web, pdf
