@@ -106,3 +106,7 @@ entries:
     - title: Fonts
       url: /fonts.html
       output: web, pdf
+
+    - title: Travel
+      url: /travel.html
+      output: web, pdf
