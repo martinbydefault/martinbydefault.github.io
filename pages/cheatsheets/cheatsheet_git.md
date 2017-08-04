@@ -14,8 +14,10 @@ toc: false
 title="How to add a file to the last commit? / How to edit last commit's message?"
 content="
 ```bash
-git add new-file # stages the desired file
-git commit --amend # changes the last commit's message and includes staged files in that commit
+# stages the desired file
+git add new-file
+# changes the last commit's message and includes staged files in that commit
+git commit --amend
 ```
 " %}
 <!-- end -->
