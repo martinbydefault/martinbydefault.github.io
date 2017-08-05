@@ -36,6 +36,10 @@ entries:
       url: /sec_courses.html
       output: web, pdf
 
+    - title: Talks & Events
+      url: /sec_talks.html
+      output: web, pdf
+
     - title: Tools
       url: /sec_tools.html
       output: web, pdf

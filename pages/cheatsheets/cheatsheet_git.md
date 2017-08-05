@@ -35,4 +35,11 @@ git remote set-url origin https://github.com/USERNAME/REPOSITORY.git
 <sub>*Reference: [Github](https://help.github.com/articles/changing-a-remote-s-url/)*</sub>
 " %}
 <!-- end -->
+<!--  panel -->
+{% include panel.html
+title="View history of changes in a specific directory with diffs"
+content="
+`git log -p DIR`
+" %}
+<!-- end -->
 </div>

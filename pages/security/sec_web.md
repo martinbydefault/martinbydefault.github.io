@@ -6,6 +6,13 @@ sidebar: wiki_sidebar
 permalink: sec_web.html
 ---
 
+## CORS - **C**ross **O**rigin **R**esource **S**haring
+Introduction to **CORS**:
+* [Cross-domain Ajax with Cross-Origin Resource Sharing](https://www.nczonline.net/blog/2010/05/25/cross-domain-ajax-with-cross-origin-resource-sharing/)
+* [HTTP access control (CORS)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS) by MDN  
+[Same Origin Policy](https://developer.mozilla.org/en-US/docs/Web/Security/Same-origin_policy) by MDN
+* [Bypassing Same Origin Policy](http://qnimate.com/same-origin-policy-in-nutshell/)
+
 ## CSRF - **C**ross **S**ite **R**equest **F**orgery
 
 [**CSRF** Demystified](http://www.gnucitizen.org/blog/csrf-demystified/) | I will try to provide a basic explanation about the attack pattern itself, come up with several real word examples and finally summarize a list of things developers can do to protect their sites against CSRF attacks.
