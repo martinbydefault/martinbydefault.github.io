@@ -20,6 +20,11 @@ permalink: ctf_material.html
 
 [Github Collection](https://github.com/ctfs) | A collection of writeups hosted at github and organised by year.
 
+## Videos
+
+[Gynvael](https://www.youtube.com/user/GynvaelEN) | Video Podcasts/Livestreams about CTFs, computer security, programing and similar things.
+[John Hammond - RootOfTheNull](https://www.youtube.com/user/RootOfTheNull/) | I post tutorials and videos on lots of programming l anguages. Mostly CTFs.
+
 ## CTFs
 
 * https://www.hackthebox.gr

@@ -9,7 +9,7 @@ permalink: sec_tools.html
 ## Scanners
 
 [w3af](http://w3af.org/) | Open Source Web Application Security Scanner
-[Scanning for OWASP Top 10 Vulnerabilities with Metasploit for the web(w3af)](https://gbhackers.com/scanning-owsap-top-10-vulnerabilities-metasploit-webw3af/) | 
+[Scanning for OWASP Top 10 Vulnerabilities with Metasploit for the web(w3af)](https://gbhackers.com/scanning-owsap-top-10-vulnerabilities-metasploit-webw3af/) |
 
 ## Web Proxy
 
@@ -34,3 +34,7 @@ permalink: sec_tools.html
 ### Websites
 
 * [Compiler Explorer](https://godbolt.org/#) is an interactive tool that lets you type code in one window and see the results of its compilation in another window. You can "translate" C code to assembler in **real time**.
+
+## Pentesting Suite
+
+[Metasploit](https://www.metasploit.com/) by Rapid7 | The Metasploit Project host the world’s largest public database of quality-assured exploits. 

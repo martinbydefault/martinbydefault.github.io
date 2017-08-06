@@ -32,7 +32,7 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: Courses
+    - title: Courses & Videos
       url: /sec_courses.html
       output: web, pdf
 
@@ -102,6 +102,10 @@ entries:
   - title: General
     output: web, pdf
     folderitems:
+
+    - title: News
+      url: /news.html
+      output: web, pdf
 
     - title: Kindle
       url: /kindle.html
