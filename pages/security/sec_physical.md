@@ -7,4 +7,4 @@ permalink: sec_physical.html
 ---
 
 
-https://www.solutionary.com/resource-center/blog/2015/12/hacking-gift-cards/
+[Hacking Gift Cards](https://www.solutionary.com/resource-center/blog/2015/12/hacking-gift-cards/) | How to get free stuff through gift card enumeration using Burp Intruder 
