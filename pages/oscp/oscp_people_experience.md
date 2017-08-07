@@ -13,6 +13,7 @@ permalink: oscp_people_experience.html
 * [OSCP – Review and Tips](https://hackmethod.com/oscp-review-tips/) by **Scott - hellor00t** (June 20, 2017)
 * [A Detailed Guide on OSCP Preparation – From Newbie to OSCP](http://niiconsulting.com/checkmate/2017/06/a-detail-guide-on-oscp-preparation-from-newbie-to-oscp/) by **Ramkisan Mohan** (June 9, 2017)
 * [Officially OSCP Certified](https://tuonilabs.wordpress.com/2017/04/20/officially-oscp-certified/) by **Jean - tuoni** (April 20, 2017)
+* [How to prepare for PWK/OSCP, a noob-friendly guide](http://www.abatchy.com/search/label/OSCP%20Prep) by **Mohamed Shahat - abatchy** (March 4, 2017)
 * [Some thought on doing the OSCP](https://xapax.github.io/blog/2017/01/14/OSCP.html) by **Philip Linghammar - xapax** (January 14, 2017)
 * [Try Harder, Get Smarter](https://medium.com/@benichmt1/try-harder-get-smarter-1ce5010bbc82) by **Mike Benich** (March 25, 2016)
 * [OSCP Review](https://www.doyler.net/security-not-included/oscp-review) by **Ray Doyle** (January 9, 2016)

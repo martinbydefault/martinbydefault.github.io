@@ -26,3 +26,5 @@ The **Offensive Security Certified Professional** (OSCP) is the companion certif
 
 An OSCP has demonstrated their ability to be presented with an unknown network, enumerate the targets within their scope, exploit them, and clearly document their results in a penetration test report.
 " type="info" %}
+
+And then if you want even more information, you can check the official wiki: [Offensive Security Online Support](https://support.offensive-security.com/#!pwk-support.md) with an in-depth explanation and more specific FAQ's about the PWK course and the OSCP exam. Besides it seem to be more updated than the official page.

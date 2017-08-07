@@ -44,6 +44,10 @@ entries:
       url: /sec_tools.html
       output: web, pdf
 
+    - title: Reading & Books
+      url: /sec_books.html
+      output: web, pdf
+
     - title: Blogs
       url: /sec_blogs.html
       output: web, pdf
