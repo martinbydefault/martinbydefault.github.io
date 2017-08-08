@@ -43,8 +43,10 @@ Introduction to **CORS**:
 
 [ MySQL injection tutorial](https://www.hellboundhackers.org/articles/read-article.php?article_id=862) by sam207 | In this tutorial, I will demonstrate the infamous MySQL injection in newbie perspective so that all the newbies become able to become successful SQL injector.
 
-## OWASP Top 10
+## OWASP
 
+[OWASP Cheat Sheet Series](https://www.owasp.org/index.php/OWASP_Cheat_Sheet_Series) | Created to provide a concise collection of high value information on specific web application security topics. These cheat sheets were created by various application security professionals who have expertise in specific topics.
+[OWASP Top 10 Cheat Sheet](https://www.owasp.org/index.php/OWASP_Top_Ten_Cheat_Sheet) | The following is a developer-centric defensive cheat sheet for the 2013 release of the OWASP Top Ten Project. It also presents a quick reference based on OWASP Testing Project to help how to identify the risks. 
 
 ## Special/New Attacks
 
