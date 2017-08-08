@@ -24,3 +24,5 @@ allowed-tags:
   - event
   - news
   - videos
+  - git
+  - physical

@@ -1,6 +1,6 @@
 ---
 title: Security / Courses & Videos
-tags: [sec, course, video]
+tags: [sec, course]
 keywords: security, course, courses, videos
 sidebar: wiki_sidebar
 permalink: sec_courses.html

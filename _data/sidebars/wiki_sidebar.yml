@@ -52,6 +52,10 @@ entries:
       url: /sec_blogs.html
       output: web, pdf
 
+    - title: Physical
+      url: /sec_physical.html
+      output: web, pdf
+
     - title: Forums
       url: /sec_forums.html
       output: web, pdf
