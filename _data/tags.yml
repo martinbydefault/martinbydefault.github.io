@@ -26,3 +26,5 @@ allowed-tags:
   - videos
   - git
   - physical
+  - sysadmin
+  - ansible

@@ -37,4 +37,9 @@ permalink: sec_tools.html
 
 ## Pentesting Suite
 
-[Metasploit](https://www.metasploit.com/) by Rapid7 | The Metasploit Project host the world’s largest public database of quality-assured exploits. 
+[Metasploit](https://www.metasploit.com/) by Rapid7 | The Metasploit Project host the world’s largest public database of quality-assured exploits.
+
+
+## Dictionaries
+
+[pydictor](http://www.kitploit.com/2017/08/pydictor-powerful-and-useful-hacker.html) | A Powerful and Useful Hacker Dictionary Builder for a Brute-Force Attack

@@ -5,10 +5,14 @@ entries:
   product: Wiki
   folders:
 
-# Cheatsheets
+# Linux
   - title: Linux
     output: web, pdf
     folderitems:
+
+    - title: Tools
+      url: /linux_tools.html
+      output: web, pdf
 
     - title: Material
       url: /linux_material.html
@@ -26,6 +30,11 @@ entries:
     - title: GIT
       url: /cheatsheet_git.html
       output: web, pdf
+
+    - title: Google
+      url: /cheatsheet_google.html
+      output: web, pdf
+
 # ---
 # Security
   - title: Security
@@ -107,6 +116,20 @@ entries:
       url: /oscp_similar_vms.html
       output: web, pdf
 # ---
+# SysAdmin
+  - title: SysAdmin
+    output: web, pdf
+    folderitems:
+
+    - title: General
+      url: /sysadmin_general.html
+      output: web, pdf
+
+    - title: Ansible
+      url: /sysadmin_ansible.html
+      output: web, pdf
+# ---
+# General
   - title: General
     output: web, pdf
     folderitems:
@@ -126,3 +149,4 @@ entries:
     - title: Travel
       url: /travel.html
       output: web, pdf
+# ---
