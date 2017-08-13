@@ -28,3 +28,5 @@ allowed-tags:
   - physical
   - sysadmin
   - ansible
+  - regex
+  - google

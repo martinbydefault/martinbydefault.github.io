@@ -18,6 +18,11 @@ permalink: sec_tools.html
 [Charles Proxy](https://www.charlesproxy.com/) | HTTP proxy / HTTP monitor / Reverse Proxy that enables a developer to view all of the HTTP and SSL / HTTPS traffic between their machine and the Internet. This includes requests, responses and the HTTP headers (which contain the cookies and caching information).
 [Fiddler](http://www.telerik.com/fiddler) | The free web debugging proxy for any browser, system or platform
 
+
+## Network
+
+[Nmap Cheat Sheet](https://www.stationx.net/nmap-cheat-sheet/) | Network exploration tool and security / port scanner.
+
 ## Reversing
 
 ### Linux Commands/Tools
@@ -34,6 +39,7 @@ permalink: sec_tools.html
 ### Websites
 
 * [Compiler Explorer](https://godbolt.org/#) is an interactive tool that lets you type code in one window and see the results of its compilation in another window. You can "translate" C code to assembler in **real time**.
+* [Reverse engineering for malware analysis cheatsheet](http://pax0r.com/staff/reverse.png)
 
 ## Pentesting Suite
 

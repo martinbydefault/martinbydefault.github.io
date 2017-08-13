@@ -31,6 +31,10 @@ entries:
       url: /cheatsheet_git.html
       output: web, pdf
 
+    - title: Regex
+      url: /cheatsheet_regex.html
+      output: web, pdf
+
     - title: Google
       url: /cheatsheet_google.html
       output: web, pdf
