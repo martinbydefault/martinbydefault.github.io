@@ -93,6 +93,14 @@ entries:
     - title: Crypto
       url: /ctf_crypto.html
       output: web, pdf
+
+    - title: Tools
+      url: /ctf_tools.html
+      output: web, pdf
+
+    - title: Tricks
+      url: /ctf_tricks.html
+      output: web, pdf
 # ---
 # OSCP
   - title: OSCP

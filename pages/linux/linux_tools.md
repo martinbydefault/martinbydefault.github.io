@@ -147,3 +147,28 @@ These logs gets rotated (every month I guess), old files will be suffixed with a
 
 * `ldd` *(Linux)*
 * `otool -L` *(MacOS)*
+
+## Multiple terminals
+
+* `tmux` -- terminal multiplexer
+  * `Ctrl`+`b` `%` -- Split pane horizontally
+  * `Ctrl`+`b` `"` -- Split pane vertically
+  * `Ctrl`+`b` `<arrow-key>` -- Switch pane
+  * `Ctrl`+`d` -- Close pane  
+  * `Ctrl`+`b` `d` -- Detach current session
+  * `Ctrl`+`b` `D` -- Detach specific session (selected from list)
+  * `tmux ls` -- view running session
+  * `tmux attach -t 0` -- attach to session 0
+  * `tmux new -s database` -- create a session with name
+  * `tmux rename-session -t 0 database` -- rename existing session
+  * `tmux attach -t database` -- attach to a named session  
+  * `Ctrl`+`b` `?` -- list of available commands
+  * `Ctrl`+`b` `z` -- go fullscreen (press again to go restore)
+  * `Ctrl`+`b` `Ctrl`+`<arrow-key>` -- Resize pane in direction of key  
+<sup>Reference: [A quick and easy guide to tmux](http://www.hamvocke.com/blog/a-quick-and-easy-guide-to-tmux/)</sup>
+
+## Network
+
+* `nc`/`netcat` -- arbitrary TCP and UDP connections and listens
+  * `nc -l localhost 4000` -- listen in localhost:4000  
+<sup>Reference: [Netcat – a couple of useful examples](https://www.g-loaded.eu/2006/11/06/netcat-a-couple-of-useful-examples/)</sup>

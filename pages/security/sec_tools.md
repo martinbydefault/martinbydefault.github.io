@@ -41,6 +41,11 @@ permalink: sec_tools.html
 * [Compiler Explorer](https://godbolt.org/#) is an interactive tool that lets you type code in one window and see the results of its compilation in another window. You can "translate" C code to assembler in **real time**.
 * [Reverse engineering for malware analysis cheatsheet](http://pax0r.com/staff/reverse.png)
 
+## SSL
+* `openssl s_client -connect www.feistyduck.com:443` -- Connect via SSL/TLS  
+(Useful parameters: `-quiet`, `-ign_eof`)  
+<sup>Reference: [Debug SSL/TLS](https://www.feistyduck.com/library/openssl-cookbook/online/ch-testing-with-openssl.html)</sup>
+
 ## Pentesting Suite
 
 [Metasploit](https://www.metasploit.com/) by Rapid7 | The Metasploit Project host the world’s largest public database of quality-assured exploits.

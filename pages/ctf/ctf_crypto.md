@@ -12,6 +12,8 @@ permalink: ctf_crypto.html
 [MD5Hashing](https://md5hashing.net/) | Ultimate Hashing and Anonymity toolkit
 [DeCodeIngress Tools](http://tools.decodeingress.me/#/) | Here you can find some basic functionality that can help you with decoding passcodes. ASCII, HEX, BASE64, BINARY, REVERSE, OCTAL, ROT N, Vigenere.
 
+* Use `tr` to decode rot13: `tr '[A-Za-z]' '[N-ZA-Mn-za-m]'`
+
 ## Training
 
 [the cryptopals crypto challenges](https://cryptopals.com/) | This site will host all eight sets of our crypto challenges, with solutions in most mainstream languages.

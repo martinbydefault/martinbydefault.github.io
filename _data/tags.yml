@@ -30,3 +30,4 @@ allowed-tags:
   - ansible
   - regex
   - google
+  - tricks
