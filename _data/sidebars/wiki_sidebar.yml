@@ -80,6 +80,10 @@ entries:
     - title: Windows
       url: /sec_windows.html
       output: web, pdf
+
+    - title: Mobile
+      url: /sec_mobile.html
+      output: web, pdf
 # ---
 # CTF
   - title: CTF
