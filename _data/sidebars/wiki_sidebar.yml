@@ -81,8 +81,12 @@ entries:
       url: /sec_windows.html
       output: web, pdf
 
-    - title: Mobile
-      url: /sec_mobile.html
+    - title: Android
+      url: /sec_android.html
+      output: web, pdf
+
+    - title: iOS
+      url: /sec_ios.html
       output: web, pdf
 # ---
 # CTF
@@ -96,6 +100,10 @@ entries:
 
     - title: Crypto
       url: /ctf_crypto.html
+      output: web, pdf
+
+    - title: Steganography
+      url: /ctf_stego.html
       output: web, pdf
 
     - title: Tools
@@ -114,7 +122,6 @@ entries:
     - title: General Info
       url: /oscp_general_info.html
       output: web, pdf
-      type: homepage
 
     - title: People's experience
       url: /oscp_people_experience.html
@@ -131,6 +138,11 @@ entries:
     - title: Similar VMs
       url: /oscp_similar_vms.html
       output: web, pdf
+
+    - title: Kali
+      url: /oscp_kali.html
+      output: web, pdf
+
 # ---
 # SysAdmin
   - title: SysAdmin
@@ -164,5 +176,14 @@ entries:
 
     - title: Travel
       url: /travel.html
+      output: web, pdf
+# ---
+# Very Specific
+  - title: Very Specific
+    output: web, pdf
+    folderitems:
+
+    - title: Tools
+      url: /specific_tools.html
       output: web, pdf
 # ---

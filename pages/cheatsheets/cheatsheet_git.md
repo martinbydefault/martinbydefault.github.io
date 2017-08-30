@@ -23,6 +23,13 @@ git commit --amend
 <!-- end -->
 <!--  panel -->
 {% include panel.html
+title="How to update deleted remote branches?"
+content="
+`git remote prune origin`
+" %}
+<!-- end -->
+<!--  panel -->
+{% include panel.html
 title="Change remote URL"
 content="
 ```bash
@@ -37,6 +44,24 @@ git remote set-url origin https://github.com/USERNAME/REPOSITORY.git
 <!-- end -->
 <!--  panel -->
 {% include panel.html
+title="Undo last commit"
+content="
+```bash
+# undo last commit and leave changes unstaged
+git reset HEAD~
+# undo last commit and leave changes staged
+git reset --soft HEAD~
+# undo last commit and undo changes (WARNING: This is permanent)
+git reset --hard HEAD~
+```
+<sub>*Reference: [How to undo the last commits in Git?](https://stackoverflow.com/questions/927358/how-to-undo-the-last-commits-in-git)*</sub>
+
+" %}
+<!-- end -->
+
+
+<!--  panel -->
+{% include panel.html
 title="View history of changes in a specific directory with diffs"
 content="
 `git log -p DIR`
@@ -44,10 +69,17 @@ content="
 <!-- end -->
 <!--  panel -->
 {% include panel.html
+title="View changes between branches (optionally in a specific directory)"
+content="
+`git diff master..yourbranch path/to/folder`
+" %}
+<!-- end -->
+<!--  panel -->
+{% include panel.html
 title="How to set git user and email per directory"
 content="
-**1.** Install ondir (on a Mac: brew install ondir, other OSs need to install it from the linked page).  
-**2.** Put these functions into your shell profile (e.g. .profile):
+**1.** Install [`ondir`](http://swapoff.org/ondir.html) (on a Mac: `brew install ondir`, other OSs need to install it from the linked page).  
+**2.** Put these functions into your shell profile (e.g. .profile, .zshrc):
 
 ```bash
 # ondir configuration
@@ -62,7 +94,7 @@ builtin popd \"$@\" && eval \"`ondir \"$OLDPWD\" \"$PWD\"`\"
 }
 eval \"`ondir /`\"
 ```
-**3.** Configure ondir by putting these lines into ~/.ondirrc (adapt it to whatever you need):
+**3.** Configure ondir by putting these lines into `~/.ondirrc` (adapt it to whatever you need):
 
 ```bash
 enter ~/dev/work

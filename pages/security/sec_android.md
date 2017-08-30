@@ -1,9 +1,9 @@
 ---
-title: Security / Mobile
-tags: [sec, mobile]
-keywords: security, mobile
+title: Security / Android
+tags: [sec, mobile, android]
+keywords: security, mobile, android
 sidebar: wiki_sidebar
-permalink: sec_mobile.html
+permalink: sec_android.html
 ---
 
 ## APKs

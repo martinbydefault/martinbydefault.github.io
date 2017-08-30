@@ -19,7 +19,7 @@ permalink: ctf_material.html
 ## Writeups
 
 [Github Collection](https://github.com/ctfs) | A collection of writeups hosted at github and organised by year.
-
+[Sebastián Cortés Blog](http://sebastiancort.es/blog/) | Writeups about CTFs and tools
 ## Videos
 
 [Gynvael](https://www.youtube.com/user/GynvaelEN) | Video Podcasts/Livestreams about CTFs, computer security, programing and similar things.
