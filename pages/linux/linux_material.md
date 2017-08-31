@@ -25,3 +25,7 @@ permalink: linux_material.html
 
 [crontab.guru](https://crontab.guru/) | The quick and simple editor for cron schedule expressions.
 [Cron Sandbox](https://crontab.guru/) | This opening screen demonstrates the schedule that results from demo timing values. Enter YOUR crontab timing parameters, and click 'Run'. You will see a list of the dates and times that your cron job would execute.
+
+## Git
+
+[Using submodules in Git - Tutorial](http://www.vogella.com/tutorials/GitSubmodules/article.html) by Vogella | This tutorial explains the usage of submodules with the Git version control system.
