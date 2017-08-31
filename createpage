@@ -10,9 +10,14 @@ DIR="pages/"
 
 echo "Section? "
 read section
+# Convert to lowercase
+section=$(echo $section | tr '[:upper:]' '[:lower:]')
 DIR+=$section
+
 echo "Name? "
 read name
+# Convert to lowercase
+name=$(echo $name | tr '[:upper:]' '[:lower:]')
 
 # Uppercase first letter
 Section="$(tr '[:lower:]' '[:upper:]' <<< ${section:0:1})${section:1}"
@@ -24,6 +29,8 @@ case ${answer:0:1} in
     y|Y )
         echo "Short section name? "
         read sec_short
+        # Convert to lowercase
+        sec_short=$(echo $sec_short | tr '[:upper:]' '[:lower:]')
     ;;
     * )
         sec_short=$section
@@ -46,5 +53,12 @@ permalink: ${sec_short}_${name}.html
 ---
 
 EOF
+
+# Add tags
+for tag in $sec_short $name; do
+    if ! egrep -q "^\s\s- $tag" _data/tags.yml; then
+        bash createtag $tag
+    fi
+done
 
 exit
