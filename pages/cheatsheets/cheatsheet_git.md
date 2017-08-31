@@ -44,6 +44,15 @@ git remote set-url origin https://github.com/USERNAME/REPOSITORY.git
 <!-- end -->
 <!--  panel -->
 {% include panel.html
+title="Ignore local changes to tracked files (we have that with local modifications to config files)"
+content="
+`git update-index --skip-worktree <file>`
+
+<sub>*Reference: [StackOverflow](https://stackoverflow.com/a/13631525)*</sub>
+" %}
+<!-- end -->
+<!--  panel -->
+{% include panel.html
 title="Undo last commit"
 content="
 ```bash
