@@ -6,6 +6,7 @@ allowed-tags:
   - sec
   - blog
   - tool
+  - tools
   - ssh
   - bash
   - windows
@@ -33,3 +34,5 @@ allowed-tags:
   - tricks
   - android
   - ios
+  - specific
+  - mac
