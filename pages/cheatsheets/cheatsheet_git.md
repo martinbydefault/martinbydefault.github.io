@@ -98,6 +98,21 @@ content="
 <!-- end -->
 <!--  panel -->
 {% include panel.html
+title="Change commit author at one specific commit"
+content="
+1. Go to the commit immediately before the commit you want to edit: `git rebase -i <earliercommit>`
+2. In the list of commits being rebased, change the text from **pick** to **edit** next to the hash of the one you want to modify.
+3. Then do one of the following:
+    * `git commit --amend --author="Author Name <email@address.com>"`
+    * `git commit --amend --reset-author --no-edit`
+4. Finally end the rebase: `git rebase --continue`
+
+
+<sub>*Reference: [Gist](https://stackoverflow.com/a/3042512)*</sub>
+" %}
+<!-- end -->
+<!--  panel -->
+{% include panel.html
 title="How to set git user and email per directory"
 content="
 **1.** Install [`ondir`](http://swapoff.org/ondir.html) (on a Mac: `brew install ondir`, other OSs need to install it from the linked page).  
