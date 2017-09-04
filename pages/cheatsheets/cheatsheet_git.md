@@ -47,6 +47,7 @@ git remote set-url origin https://github.com/USERNAME/REPOSITORY.git
 title="Ignore local changes to tracked files (we have that with local modifications to config files)"
 content="
 `git update-index --skip-worktree <file>`
+(This only works if you don't pull again from master)
 
 <sub>*Reference: [StackOverflow](https://stackoverflow.com/a/13631525)*</sub>
 " %}
@@ -67,8 +68,20 @@ git reset --hard HEAD~
 
 " %}
 <!-- end -->
+<!--  panel -->
+{% include panel.html
+title="Revert file permission changes in local git repository"
+content="
+```bash
+git diff -p \
+    | grep -E '^(diff|old mode|new mode)' \
+    | sed -e 's/^old/NEW/;s/^new/old/;s/^NEW/new/' \
+| git apply
+```
 
-
+<sub>*Reference: [Gist](https://gist.github.com/jtdp/5443498)*</sub>
+" %}
+<!-- end -->
 <!--  panel -->
 {% include panel.html
 title="View history of changes in a specific directory with diffs"
