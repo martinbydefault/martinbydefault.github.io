@@ -6,4 +6,6 @@ sidebar: wiki_sidebar
 permalink: oscp_kali.html
 ---
 
-[Installation Problem - fails to find CD-ROM drive](https://superuser.com/a/962993)
+## Instalation problems
+* [Fails to find CD-ROM drive](https://superuser.com/a/962993)
+* [Repository/Mirror Error](https://null-byte.wonderhowto.com/how-to/fix-kali-2016-repository-mirror-error-0170262/)
