@@ -72,10 +72,11 @@ git reset --hard HEAD~
 {% include panel.html
 title="Revert file permission changes in local git repository"
 content="
+
 ```bash
-git diff -p \
-    | grep -E '^(diff|old mode|new mode)' \
-    | sed -e 's/^old/NEW/;s/^new/old/;s/^NEW/new/' \
+git diff -p \ 
+    | grep -E '^(diff|old mode|new mode)' \ 
+    | sed -e 's/^old/NEW/;s/^new/old/;s/^NEW/new/' \ 
 | git apply
 ```
 
@@ -103,7 +104,7 @@ content="
 1. Go to the commit immediately before the commit you want to edit: `git rebase -i <earliercommit>`
 2. In the list of commits being rebased, change the text from **pick** to **edit** next to the hash of the one you want to modify.
 3. Then do one of the following:
-    * `git commit --amend --author="Author Name <email@address.com>"`
+    * `git commit --amend --author=\"Author Name <email@address.com>\"`
     * `git commit --amend --reset-author --no-edit`
 4. Finally end the rebase: `git rebase --continue`
 
