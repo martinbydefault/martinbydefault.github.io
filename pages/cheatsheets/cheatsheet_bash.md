@@ -87,6 +87,14 @@ if you want to `diff` two files and get colors like you get when using `git diff
 `git diff --no-index file1 file2`
 " %}
 <!-- end -->
+<!--  panel -->
+{% include panel.html
+title="Time/Data manipulation"
+content="
+
+Get yesterday date: `date -d \"yesterday 13:00\" '+%Y-%m-%d'`
+" %}
+<!-- end -->
 </div>
 
 ## SSH
@@ -96,7 +104,7 @@ if you want to `diff` two files and get colors like you get when using `git diff
 {% include panel.html
 title="Execute a multi-line script via `ssh`"
 content="
-```bash
+```
 cat << 'EOF' | ssh user@host
 command-1
 command-2
