@@ -129,6 +129,12 @@ umount /mnt/remote_sshfs
   * `vimtutorial` / `vimtutor`
   * [Vim Awesome](http://vimawesome.com/)
 
+## User Management
+
+* `adduser <username>` -- asking for password, will create home directory and asking lots of information about the user.
+* `useradd <username>` -- not asking for password, no home directory just only add new user.
+
+
 ## Package Manager
 
 ### APT
