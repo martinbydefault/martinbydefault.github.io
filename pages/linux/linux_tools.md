@@ -44,11 +44,18 @@ permalink: linux_tools.html
   * Convert and print number of seconds to "day hour minute second" format:  
     `echo "Duration: $(($d/86400))d $(($d/3600%24))h $(($d/60%60))m $(($d%60))s"`
 
+* `find` -- walk a file hierarchy
+  * **parameters**
+    * `-name [<NAME>|"<NAME>"]` -- True if last component of the pathname being examined matches pattern.
+    * `-path [<PATH>|"<PATH>"]` -- True if the pathname being examined matches pattern.
+
 ## Processes
 
 **Detach scripts/commands from shell**:  
+
 * [`nohup`](https://ss64.com/bash/nohup.html)
-* [`screen`](https://ss64.com/bash/screen.html)
+* [`screen`](https://ss64.com/bash/screen.html)  
+
 <sup>Reference: [nohup Execute Commands After You Exit From a Shell Prompt](https://www.cyberciti.biz/tips/nohup-execute-commands-after-you-exit-from-a-shell-prompt.html)</sup>
 
 **Run commands in the background**:  
@@ -56,10 +63,11 @@ You can append `&` at the end of a command to run in the background.
 This is useful when you have only one terminal and you want to run a command that takes too long to end or you want it to run it indefinitely, e.g.: `tcpdump` and you also want to execute another command in parallel.  
 <sup>Reference: [Unix job control command list](https://kb.iu.edu/d/afnw)</sup>
 
-Also:
+Also:  
+
 * `jobs` -- List background processes
 * `pgrep <process_name>` -- get pid of a process
-* `kill PID` -- kill the process with this PID. without parameters equals to pressing **Ctrl+C** when the process is in the foreground.
+* `kill PID` -- kill the process with this PID. Without parameters equals to pressing **Ctrl+C** when the process is in the foreground.
 
 ## Filesystem
 
