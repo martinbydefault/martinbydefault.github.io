@@ -113,4 +113,13 @@ EOF
 ```
 " %}
 <!-- end -->
+<!--  panel -->
+{% include panel.html
+title="Jump Hosts -- Passing through a gateway or two using `ssh`"
+content="
+When port forwarding is available the easiest way is to use **ProxyJump** in the configuration file or -J as a run-time parameter. (Of course you may also use the **ProxyCommand** ssh(1) option to invoke the netcat utility.)  
+An example of -J usage is: `ssh -J firewall.example.org:22 server2.example.org`  
+<sup>*Ref: [OpenSSH/Cookbook/Proxies and Jump Hosts](https://en.wikibooks.org/wiki/OpenSSH/Cookbook/Proxies_and_Jump_Hosts#Jump_Hosts_--_Passing_Through_a_Gateway_or_Two)*</sup>
+" %}
+<!-- end -->
 </div>
